@@ -6,3 +6,4 @@ pipline {
       echo "Hello jenkins, this my first pipline !!"
   }
 }
+}
