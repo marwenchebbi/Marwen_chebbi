@@ -3,7 +3,11 @@ pipline {
   agent any 
   stages {
     stage("Build"){
-      echo "Hello jenkins, this my first pipline !!"
+      steps {
+        echo "Hello jenkins, this my first pipline !!"
+      }
+      
+      
   }
 }
 }
