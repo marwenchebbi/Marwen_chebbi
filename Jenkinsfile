@@ -10,6 +10,7 @@ pipeline {
                     az login -u $AZURE_USER -p $AZURE_PASS
                     az account show
                     '''
+                    echo "Logged in successfully ."
                 }
             }
         }
