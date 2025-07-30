@@ -1,5 +1,9 @@
 pipeline {
-    agent any
+    agent {
+            docker {
+            image 'mcr.microsoft.com/azure-cli:latest'
+        }
+    }
     stages {
         stage('Azure Login') {
             steps {
