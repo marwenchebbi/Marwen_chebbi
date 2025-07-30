@@ -1,6 +1,6 @@
 pipeline {
     any agent 
-    }
+    
     stages {
         stage('Azure Login') {
             steps {
