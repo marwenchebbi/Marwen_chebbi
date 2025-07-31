@@ -9,7 +9,7 @@ pipeline {
                     sh '''
                     az login -u $AZURE_USER -p $AZURE_PASS
                     az account show
-
+                    '''
                     sh '''
                     docker --version
                     '''
