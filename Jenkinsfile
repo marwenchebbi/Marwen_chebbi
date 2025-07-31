@@ -11,7 +11,7 @@ pipeline {
                     az account show
                     '''
 
-                    echo "Logged in successfully ."
+                    echo "Connected successfully ."
                 }
             }
         }
